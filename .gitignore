@@ -1,0 +1,11 @@
+#Virtuell miljö: återskapas från requirements och ska inte pushas
+.venv/
+
+#Python cachefiler: Skapas när moduler importeras
+*.pyc
+
+#Jupyter checkpoint kopior av notebook
+.ipynb_checkpoints/
+
+#Vs code, personliga inställningar
+.vscode/
