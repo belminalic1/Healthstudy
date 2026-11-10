@@ -48,5 +48,8 @@ Healthstudy/
 - "del1" Grundläggande analys och statistik
 - "del2" Fördjupning och pipeline
 
-## Resultat
-*Fylls i när analysen är klar
+## Resultat (del 1)
+- Deltagarna är 18-90 år och medelblodtrycket är cirka 149 mmHg.
+- 5,9 procent har sjukdomen. Simuleringen med samma risk gav 6,5 procent.
+- 95 % konfidensintervall för medelblodtrycket: 148,3 - 150,1 mmHG.
+- Rökare har 0,47 mmHg högre medelblodtryck, men skillnaden går inte skilja från slumpmässig variation (p = 0,33).
