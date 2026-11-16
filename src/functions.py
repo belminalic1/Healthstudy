@@ -28,3 +28,11 @@ def ci_normal(data, z=1.96):
     nedre = medel - z * se 
     ovre = medel + z * se
     return medel, nedre, ovre
+
+def welch_test(grupp1, grupp2):
+    """" Testar om grupp 1 har högre medelvärde än grupp 2 med ett Welch t-test.
+    Returnerar t-värde och p-värde.
+    Grupp 1: värden för gruppen som testas
+    Grupp 2: värden för jämförelsegruppen """
+    t_stat, p_varde = stats.ttest_ind(grupp1, grupp2, equal_var=False, alternative="greater") #Welch metodlistan, v6 uppgift 16
+    return t_stat, p_varde
