@@ -18,3 +18,19 @@ class HealthAnalyzer:
         tabell = self.df[kolumner].agg(["mean", "median", "min", "max"])
         
         return tabell.T.round(1)
+    
+    def plot_histogram(self, kolumn, titel, xlabel):
+        """ Gör ett histogram för en kolumn med en linje vid medelvärdet.
+        Kolumn: kolumnamn
+        Titel: grafens titel
+        xlabel: text under x-axeln """
+    
+        plt.hist(self.df[kolumn], bins=20)
+        plt.axvline(self.df[kolumn].mean(), color="red",    
+            linestyle="--", label="Medelvärde")
+        plt.title(titel)
+        plt.xlabel(xlabel)
+        plt.ylabel("Antal deltagare")
+        plt.legend()
+        plt.grid(True)
+        plt.show()
