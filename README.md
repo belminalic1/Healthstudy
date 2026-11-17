@@ -6,7 +6,7 @@ Analys av en hälsostudie med 800 deltagare och utreda olika frågor:
 ** Del 1 frågor
 - Hur ser deltagarnas ålder, vikt, längd, blodtryck och kolesterol ut
 - Hur stor del av deltagarna har sjukdomen, och stämmer det med simuleringen?
-- Imom vilket intervall ligger det genomsnittliga systoliska blodtrycket?
+- Inom vilket intervall ligger det genomsnittliga systoliska blodtrycket?
 - Har rökare högre medelblodtryck än icke-rökare?
 
 ** Del 2

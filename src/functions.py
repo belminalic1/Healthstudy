@@ -36,3 +36,4 @@ def welch_test(grupp1, grupp2):
     Grupp 2: värden för jämförelsegruppen """
     t_stat, p_varde = stats.ttest_ind(grupp1, grupp2, equal_var=False, alternative="greater") #Welch metodlistan, v6 uppgift 16
     return t_stat, p_varde
+
